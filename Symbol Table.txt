@@ -1,0 +1,55 @@
+ID,Type,Relative Address
+
+ globalInteger   | INT | 0
+ globalCharacter | CHR | 1
+ factorial       | FUN
+ fibonacci       | FUN
+ main            | FUN
+
+
+	ID: factorial
+	Start: 0
+	End: 15
+	No of Parameters: 1
+	No of Local Variables: 5
+
+x, INT, 0
+ret, INT, 1
+x2, INT, 2
+t0, TMP, 3
+t1, TMP, 7
+t2, TMP, 11
+
+
+	ID: fibonacci
+	Start: 16
+	End: 37
+	No of Parameters: 1
+	No of Local Variables: 10
+
+y, INT, 0
+fret1, INT, 1
+fret2, INT, 2
+y1, INT, 3
+y2, INT, 4
+t3, TMP, 5
+t4, TMP, 9
+t5, TMP, 13
+t6, TMP, 17
+t7, TMP, 21
+t8, TMP, 25
+
+
+	ID: main
+	Start: 38
+	End: 57
+	No of Parameters: 0
+	No of Local Variables: 7
+
+table, INT, 0
+in1, INT, 5
+ff, INT, 6
+in2, INT, 7
+fb, INT, 8
+t9, TMP, 9
+t10, TMP, 13

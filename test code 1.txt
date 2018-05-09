@@ -1,0 +1,50 @@
+*** My
+Name
+Is
+Hamza ***
+
+integer globalVariable;
+
+function bar() returns character 
+begin 
+	integer val;
+	input val;
+	print val;
+end
+
+function main() returns integer 
+begin 
+	integer m,n,sum,i;
+	while m=<n
+	begin
+		sum<-sum+i;
+		i<-i+1+bar(m);
+	end
+	print sum;
+end
+
+
+function foo() returns void 
+begin 
+
+integer p,q,r,a,b,c,d,e,f,i1,j,x,y,z,max<-8976,nice;
+
+character k<-'q',t;
+
+bar(p,q,r);
+x<-foo(a,b,c,d);
+if x=y
+begin
+    max<-a-b*c-d/myFunc()-t;
+	if i1 =/ j
+	begin
+		input i1;
+	end
+    nice<-z*67;
+end
+else
+begin
+    max<-y;
+end
+print max;
+end
